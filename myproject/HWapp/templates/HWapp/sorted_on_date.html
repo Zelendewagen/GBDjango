@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}
+СОРТИРОВКА
+{% endblock %}
+
+{% block content %}
+<p><a href="{% url 'sorted_on_week' client_id %}"> Заказы за неделю. </a></p>
+<p><a href="{% url 'sorted_on_month' client_id %}"> Заказы за месяц. </a></p>
+<p><a href="{% url 'sorted_on_year' client_id %}"> Заказы за год. </a></p>
+{% endblock %}

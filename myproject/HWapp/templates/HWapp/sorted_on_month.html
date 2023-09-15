@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+СОРТИРОВКА ПО НЕДЕЛЯМ
+{% endblock %}
+
+{% block content %}
+Товары заказанные за месяц:
+{% for order in orders %}
+{% if order.date_order.date > datetime.date.today(30) %}
+{% for product in order.products.all %}
+<p>{{product}}</p>>
+{% endfor%}
+{% endif %}
+{% endfor %}
+{% endblock %}
