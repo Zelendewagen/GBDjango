@@ -4945,3 +4945,460 @@ INFO 2023-09-16 01:27:14,746 autoreload 29456 11660 Watching for file changes wi
 INFO 2023-09-16 01:27:17,400 basehttp 29456 28792 "GET / HTTP/1.1" 200 202
 INFO 2023-09-16 01:27:21,959 basehttp 29456 28792 "GET /add_user HTTP/1.1" 200 1061
 INFO 2023-09-16 01:27:27,399 basehttp 29456 28792 "GET /hw/upload_image HTTP/1.1" 200 600
+INFO 2023-09-16 22:04:44,029 autoreload 22168 13516 Watching for file changes with StatReloader
+INFO 2023-09-16 22:04:45,073 basehttp 22168 13668 "GET / HTTP/1.1" 200 202
+INFO 2023-09-16 22:04:49,419 basehttp 22168 13668 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-16 22:04:49,616 basehttp 22168 13668 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2023-09-16 22:04:49,622 basehttp 22168 18820 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2023-09-16 22:04:49,626 basehttp 22168 992 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2023-09-16 22:04:49,626 basehttp 22168 14168 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-09-16 22:04:49,628 basehttp 22168 29352 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2023-09-16 22:04:49,633 basehttp 22168 13668 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2023-09-16 22:04:49,634 basehttp 22168 26112 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2023-09-16 22:24:06,912 autoreload 6380 9984 Watching for file changes with StatReloader
+INFO 2023-09-16 22:24:11,986 basehttp 6380 16168 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-16 22:24:12,039 basehttp 6380 16168 "GET /admin/ HTTP/1.1" 200 5852
+INFO 2023-09-16 22:24:12,106 basehttp 6380 16168 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2023-09-16 22:24:12,119 basehttp 6380 16168 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-09-16 22:24:12,119 basehttp 6380 26080 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-09-16 22:24:23,089 basehttp 6380 26080 "GET /admin/auth/group/ HTTP/1.1" 200 7641
+INFO 2023-09-16 22:24:23,111 basehttp 6380 26080 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2023-09-16 22:24:23,116 basehttp 6380 16168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-16 22:24:23,119 basehttp 6380 9020 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-09-16 22:24:23,124 basehttp 6380 2860 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-09-16 22:24:23,124 basehttp 6380 21528 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-09-16 22:24:23,127 basehttp 6380 26080 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-09-16 22:24:23,132 basehttp 6380 16168 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-09-16 22:24:23,134 basehttp 6380 9020 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-09-16 22:24:23,159 basehttp 6380 5456 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-09-16 22:24:23,179 basehttp 6380 5456 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-09-16 22:24:23,184 basehttp 6380 2860 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-09-16 22:24:23,190 basehttp 6380 5456 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2023-09-16 22:24:23,201 basehttp 6380 5456 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2023-09-16 22:24:25,122 basehttp 6380 5456 "GET /admin/auth/user/add/ HTTP/1.1" 200 10988
+INFO 2023-09-16 22:24:25,141 basehttp 6380 9020 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-16 22:24:25,145 basehttp 6380 5456 "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2023-09-16 22:24:25,149 basehttp 6380 2860 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2023-09-16 22:24:25,171 basehttp 6380 2860 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2023-09-16 22:24:25,175 basehttp 6380 5456 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2023-09-16 22:24:26,544 basehttp 6380 5456 "GET /admin/auth/group/ HTTP/1.1" 200 7641
+INFO 2023-09-16 22:24:27,361 basehttp 6380 5456 "GET /admin/ HTTP/1.1" 200 5852
+INFO 2023-09-16 22:24:28,479 basehttp 6380 5456 "GET /admin/auth/user/ HTTP/1.1" 200 11310
+INFO 2023-09-16 22:24:28,496 basehttp 6380 5456 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-16 22:24:28,516 basehttp 6380 5456 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2023-09-16 22:24:28,522 basehttp 6380 2860 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2023-09-16 22:24:29,266 basehttp 6380 2860 "GET /admin/ HTTP/1.1" 200 5852
+INFO 2023-09-16 22:24:29,742 basehttp 6380 2860 "GET /admin/auth/user/ HTTP/1.1" 200 11310
+INFO 2023-09-16 22:24:31,358 basehttp 6380 2860 "GET /admin/ HTTP/1.1" 200 5852
+INFO 2023-09-16 22:35:57,999 basehttp 6380 24364 "GET /admin/auth/group/add/ HTTP/1.1" 200 13314
+INFO 2023-09-16 22:35:58,019 basehttp 6380 4608 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-16 22:35:58,031 basehttp 6380 24364 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2023-09-16 22:35:58,031 basehttp 6380 5504 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2023-09-16 22:35:58,084 basehttp 6380 24364 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2023-09-16 22:35:58,085 basehttp 6380 5504 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2023-09-16 22:35:58,085 basehttp 6380 4608 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2023-09-16 22:35:59,271 basehttp 6380 4608 "GET /admin/ HTTP/1.1" 200 5852
+INFO 2023-09-16 22:36:00,017 basehttp 6380 4608 "GET /admin/auth/group/ HTTP/1.1" 200 7641
+INFO 2023-09-16 22:36:00,032 basehttp 6380 4608 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-16 22:36:02,648 basehttp 6380 4608 "GET /admin/ HTTP/1.1" 200 5852
+INFO 2023-09-16 22:36:03,354 basehttp 6380 4608 "GET /admin/auth/group/add/ HTTP/1.1" 200 13314
+INFO 2023-09-16 22:36:03,369 basehttp 6380 4608 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-16 22:39:52,722 autoreload 6380 9984 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-16 22:39:53,285 autoreload 10936 29456 Watching for file changes with StatReloader
+INFO 2023-09-16 22:39:54,537 autoreload 10936 29456 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-16 22:39:55,052 autoreload 21732 5692 Watching for file changes with StatReloader
+INFO 2023-09-16 22:39:56,314 autoreload 21732 5692 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-16 22:39:56,830 autoreload 15808 26596 Watching for file changes with StatReloader
+INFO 2023-09-16 22:39:58,087 autoreload 15808 26596 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-16 22:39:58,645 autoreload 28308 21936 Watching for file changes with StatReloader
+INFO 2023-09-16 22:40:01,029 autoreload 28308 21936 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-16 22:40:01,542 autoreload 24580 23864 Watching for file changes with StatReloader
+INFO 2023-09-16 22:40:03,825 autoreload 24580 23864 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-16 22:40:04,357 autoreload 5008 13096 Watching for file changes with StatReloader
+INFO 2023-09-16 22:40:05,734 autoreload 5008 13096 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-16 22:40:06,248 autoreload 10812 21376 Watching for file changes with StatReloader
+INFO 2023-09-16 22:40:07,493 autoreload 10812 21376 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-16 22:40:08,047 autoreload 28220 18316 Watching for file changes with StatReloader
+INFO 2023-09-16 22:40:09,426 autoreload 28220 18316 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-16 22:40:09,955 autoreload 10836 26216 Watching for file changes with StatReloader
+INFO 2023-09-16 22:40:14,425 autoreload 10836 26216 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-16 22:40:14,945 autoreload 5504 9984 Watching for file changes with StatReloader
+INFO 2023-09-16 22:40:19,289 autoreload 5504 9984 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-16 22:40:19,816 autoreload 20824 4176 Watching for file changes with StatReloader
+INFO 2023-09-16 22:40:37,684 autoreload 20824 4176 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-16 22:40:38,229 autoreload 1332 22104 Watching for file changes with StatReloader
+INFO 2023-09-16 22:40:41,640 autoreload 1332 22104 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-16 22:40:42,158 autoreload 12372 9364 Watching for file changes with StatReloader
+INFO 2023-09-16 22:40:43,422 autoreload 12372 9364 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-16 22:40:43,933 autoreload 18584 5644 Watching for file changes with StatReloader
+INFO 2023-09-16 22:40:46,217 autoreload 18584 5644 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-16 22:40:46,728 autoreload 23904 18612 Watching for file changes with StatReloader
+INFO 2023-09-16 22:40:51,052 autoreload 23904 18612 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-16 22:40:51,549 autoreload 29800 4404 Watching for file changes with StatReloader
+INFO 2023-09-16 22:40:54,852 autoreload 29800 4404 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-16 22:40:55,350 autoreload 16192 30252 Watching for file changes with StatReloader
+INFO 2023-09-16 22:40:56,610 autoreload 16192 30252 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-16 22:40:57,107 autoreload 3176 11772 Watching for file changes with StatReloader
+INFO 2023-09-16 22:40:59,391 autoreload 3176 11772 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-16 22:40:59,898 autoreload 22580 5452 Watching for file changes with StatReloader
+INFO 2023-09-16 22:41:02,197 autoreload 22580 5452 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-16 22:41:02,732 autoreload 23364 13328 Watching for file changes with StatReloader
+INFO 2023-09-16 23:55:23,276 autoreload 13168 18060 Watching for file changes with StatReloader
+INFO 2023-09-17 00:08:36,700 autoreload 26768 1796 Watching for file changes with StatReloader
+INFO 2023-09-17 00:08:36,946 basehttp 26768 25876 "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-17 00:08:36,980 basehttp 26768 25876 "GET /admin/ HTTP/1.1" 200 5852
+INFO 2023-09-17 00:08:39,186 basehttp 26768 25876 "GET / HTTP/1.1" 200 202
+INFO 2023-09-17 00:08:44,141 basehttp 26768 25876 "GET /admin/ HTTP/1.1" 200 5852
+INFO 2023-09-17 00:08:48,657 basehttp 26768 25876 "GET /admin/auth/user/ HTTP/1.1" 200 11310
+INFO 2023-09-17 00:08:48,673 basehttp 26768 25876 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 00:08:52,134 basehttp 26768 25876 "GET /admin/ HTTP/1.1" 200 5852
+INFO 2023-09-17 01:38:12,293 autoreload 23692 4844 Watching for file changes with StatReloader
+INFO 2023-09-17 01:38:13,351 basehttp 23692 16036 "GET / HTTP/1.1" 200 202
+INFO 2023-09-17 01:38:20,023 basehttp 23692 16036 "GET /admin/ HTTP/1.1" 200 5852
+INFO 2023-09-17 01:38:20,035 basehttp 23692 16036 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-09-17 01:38:20,036 basehttp 23692 11756 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-09-17 01:38:20,037 basehttp 23692 9128 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-09-17 01:38:20,038 basehttp 23692 9040 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2023-09-17 01:38:20,039 basehttp 23692 8984 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-09-17 01:38:20,050 basehttp 23692 8984 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-09-17 01:38:20,050 basehttp 23692 9040 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-09-17 01:38:20,058 basehttp 23692 8984 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2023-09-17 01:38:20,058 basehttp 23692 9040 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-09-17 01:38:29,827 basehttp 23692 9040 "GET /admin/ HTTP/1.1" 200 5852
+INFO 2023-09-17 01:39:31,198 autoreload 23692 4844 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-17 01:39:31,749 autoreload 9088 12280 Watching for file changes with StatReloader
+INFO 2023-09-17 01:39:35,171 basehttp 9088 1288 "GET /admin/ HTTP/1.1" 200 6982
+INFO 2023-09-17 01:46:06,309 autoreload 9088 12280 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\HWapp\admin.py changed, reloading.
+INFO 2023-09-17 01:46:06,850 autoreload 2088 27768 Watching for file changes with StatReloader
+INFO 2023-09-17 01:47:12,709 autoreload 27252 12340 Watching for file changes with StatReloader
+INFO 2023-09-17 01:47:15,874 basehttp 27252 26436 "GET /admin/ HTTP/1.1" 200 8537
+INFO 2023-09-17 01:50:17,794 basehttp 27252 26436 "GET /admin/auth/group/add/ HTTP/1.1" 200 15811
+INFO 2023-09-17 01:50:17,814 basehttp 27252 26668 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-09-17 01:50:17,815 basehttp 27252 26436 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2023-09-17 01:50:17,816 basehttp 27252 26960 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-09-17 01:50:17,819 basehttp 27252 2184 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-09-17 01:50:17,819 basehttp 27252 26668 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-09-17 01:50:17,820 basehttp 27252 26436 "GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+INFO 2023-09-17 01:50:17,821 basehttp 27252 6276 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-09-17 01:50:17,822 basehttp 27252 26960 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+INFO 2023-09-17 01:50:17,824 basehttp 27252 26668 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-09-17 01:50:17,824 basehttp 27252 26436 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-09-17 01:50:17,824 basehttp 27252 2184 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-09-17 01:50:17,824 basehttp 27252 6276 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2023-09-17 01:50:17,828 basehttp 27252 2168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 01:50:17,830 basehttp 27252 2168 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2023-09-17 01:50:17,842 basehttp 27252 2168 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2023-09-17 01:50:17,893 basehttp 27252 2168 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 304 0
+INFO 2023-09-17 01:50:17,893 basehttp 27252 26436 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 304 0
+INFO 2023-09-17 01:50:17,893 basehttp 27252 2184 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 304 0
+INFO 2023-09-17 01:50:17,893 basehttp 27252 6276 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2023-09-17 01:52:03,987 basehttp 27252 6276 "GET /admin/auth/group/add/ HTTP/1.1" 200 15811
+INFO 2023-09-17 01:52:04,055 basehttp 27252 6276 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 01:52:11,729 basehttp 27252 6276 "GET /admin/myapp/category/add/ HTTP/1.1" 200 10110
+INFO 2023-09-17 01:52:11,744 basehttp 27252 6276 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 01:52:28,255 basehttp 27252 6276 "POST /admin/myapp/category/add/ HTTP/1.1" 302 0
+INFO 2023-09-17 01:52:28,319 basehttp 27252 6276 "GET /admin/myapp/category/ HTTP/1.1" 200 10734
+INFO 2023-09-17 01:52:28,332 basehttp 27252 6276 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-09-17 01:52:28,338 basehttp 27252 6276 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 01:52:28,344 basehttp 27252 6276 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2023-09-17 01:52:28,372 basehttp 27252 6276 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2023-09-17 01:52:28,372 basehttp 27252 2184 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2023-09-17 01:52:32,366 basehttp 27252 2184 "GET /admin/myapp/category/add/ HTTP/1.1" 200 10110
+INFO 2023-09-17 01:52:32,380 basehttp 27252 2184 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 01:52:36,344 basehttp 27252 2184 "POST /admin/myapp/category/add/ HTTP/1.1" 302 0
+INFO 2023-09-17 01:52:36,359 basehttp 27252 2184 "GET /admin/myapp/category/ HTTP/1.1" 200 10952
+INFO 2023-09-17 01:52:36,376 basehttp 27252 2184 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 01:52:38,441 basehttp 27252 2184 "GET /admin/myapp/category/2/change/ HTTP/1.1" 200 10348
+INFO 2023-09-17 01:52:38,455 basehttp 27252 2184 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 01:52:39,295 basehttp 27252 2184 "GET /admin/myapp/category/ HTTP/1.1" 200 10737
+INFO 2023-09-17 01:53:13,366 autoreload 27252 12340 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-17 01:53:13,894 autoreload 9716 21456 Watching for file changes with StatReloader
+INFO 2023-09-17 02:15:39,620 autoreload 5928 12152 Watching for file changes with StatReloader
+WARNING 2023-09-17 02:15:41,676 log 5928 5040 Not Found: /admin/myapp/category/
+WARNING 2023-09-17 02:15:41,676 basehttp 5928 5040 "GET /admin/myapp/category/ HTTP/1.1" 404 5679
+WARNING 2023-09-17 02:15:43,061 log 5928 5040 Not Found: /admin/myapp/category/
+WARNING 2023-09-17 02:15:43,062 basehttp 5928 5040 "GET /admin/myapp/category/ HTTP/1.1" 404 5679
+WARNING 2023-09-17 02:15:43,519 log 5928 5040 Not Found: /admin/myapp/category/add/
+WARNING 2023-09-17 02:15:43,520 basehttp 5928 5040 "GET /admin/myapp/category/add/ HTTP/1.1" 404 5691
+INFO 2023-09-17 02:15:44,915 basehttp 5928 5040 "GET /admin/auth/group/add/ HTTP/1.1" 200 16654
+INFO 2023-09-17 02:15:45,060 basehttp 5928 5040 "GET /admin/ HTTP/1.1" 200 10339
+INFO 2023-09-17 02:15:46,640 basehttp 5928 5040 "GET /admin/ HTTP/1.1" 200 10339
+INFO 2023-09-17 02:16:13,864 basehttp 5928 5040 "GET /admin/myapp/product/ HTTP/1.1" 200 10137
+INFO 2023-09-17 02:16:13,884 basehttp 5928 5040 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 02:16:15,983 basehttp 5928 5040 "GET /admin/myapp/product/add/ HTTP/1.1" 200 12871
+INFO 2023-09-17 02:16:15,997 basehttp 5928 5040 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 02:16:35,472 basehttp 5928 5040 "POST /admin/myapp/product/add/ HTTP/1.1" 200 13058
+INFO 2023-09-17 02:16:35,487 basehttp 5928 5040 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 02:16:45,333 basehttp 5928 5040 "POST /admin/myapp/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-17 02:16:45,353 basehttp 5928 5040 "GET /admin/myapp/product/ HTTP/1.1" 200 11617
+INFO 2023-09-17 02:16:45,369 basehttp 5928 5040 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 02:16:52,041 basehttp 5928 5040 "GET /admin/myapp/user/add/ HTTP/1.1" 200 12818
+INFO 2023-09-17 02:16:52,057 basehttp 5928 5040 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 02:16:57,256 basehttp 5928 5040 "GET /admin/myapp/post/add/ HTTP/1.1" 200 13351
+INFO 2023-09-17 02:16:57,274 basehttp 5928 5040 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 02:16:57,326 basehttp 5928 8880 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2023-09-17 02:17:00,825 basehttp 5928 8880 "GET /admin/myapp/order/add/ HTTP/1.1" 200 14093
+INFO 2023-09-17 02:17:00,839 basehttp 5928 8880 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 02:17:06,022 basehttp 5928 8880 "GET /admin/myapp/user/add/ HTTP/1.1" 200 12818
+INFO 2023-09-17 02:17:06,039 basehttp 5928 8880 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 02:17:34,173 basehttp 5928 8880 "POST /admin/myapp/user/add/ HTTP/1.1" 302 0
+INFO 2023-09-17 02:17:34,190 basehttp 5928 8880 "GET /admin/myapp/user/ HTTP/1.1" 200 11629
+INFO 2023-09-17 02:17:34,205 basehttp 5928 8880 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 02:17:38,285 basehttp 5928 8880 "GET /admin/myapp/order/add/ HTTP/1.1" 200 14166
+INFO 2023-09-17 02:17:38,300 basehttp 5928 8880 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 02:17:41,724 basehttp 5928 8880 "GET /admin/myapp/product/add/?_to_field=id&_popup=1 HTTP/1.1" 200 6366
+INFO 2023-09-17 02:17:41,740 basehttp 5928 8880 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 02:18:17,983 autoreload 5928 12152 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-17 02:18:18,525 autoreload 20336 29860 Watching for file changes with StatReloader
+INFO 2023-09-17 02:19:10,070 autoreload 20336 29860 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-17 02:19:10,590 autoreload 14348 2860 Watching for file changes with StatReloader
+INFO 2023-09-17 02:19:32,576 autoreload 14348 2860 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-17 02:19:33,145 autoreload 29288 22908 Watching for file changes with StatReloader
+INFO 2023-09-17 02:19:33,333 basehttp 29288 936 "GET /admin/myapp/post/add/ HTTP/1.1" 200 13351
+INFO 2023-09-17 02:19:33,362 basehttp 29288 936 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 02:19:37,608 basehttp 29288 936 "GET /admin/myapp/order/ HTTP/1.1" 200 10123
+INFO 2023-09-17 02:19:37,622 basehttp 29288 936 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 02:19:38,212 basehttp 29288 936 "GET /admin/myapp/product/ HTTP/1.1" 200 11398
+INFO 2023-09-17 02:19:38,226 basehttp 29288 936 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 02:19:38,951 basehttp 29288 936 "GET /admin/myapp/post/ HTTP/1.1" 200 10116
+INFO 2023-09-17 02:19:38,965 basehttp 29288 936 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 02:19:39,991 basehttp 29288 936 "GET /admin/myapp/order/ HTTP/1.1" 200 10123
+INFO 2023-09-17 02:19:40,007 basehttp 29288 936 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 02:19:41,356 basehttp 29288 936 "GET /admin/myapp/order/add/ HTTP/1.1" 200 14166
+INFO 2023-09-17 02:19:41,372 basehttp 29288 936 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 02:19:48,703 basehttp 29288 936 "POST /admin/myapp/order/add/ HTTP/1.1" 200 14329
+INFO 2023-09-17 02:19:48,716 basehttp 29288 936 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 02:19:52,612 basehttp 29288 936 "POST /admin/myapp/order/add/ HTTP/1.1" 302 0
+INFO 2023-09-17 02:19:52,628 basehttp 29288 936 "GET /admin/myapp/order/ HTTP/1.1" 200 11589
+INFO 2023-09-17 02:19:52,644 basehttp 29288 936 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 02:19:54,056 basehttp 29288 936 "GET /admin/myapp/order/1/change/ HTTP/1.1" 200 14417
+INFO 2023-09-17 02:19:54,072 basehttp 29288 936 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 16:25:50,272 basehttp 29288 5464 "GET /admin/myapp/order/1/change/ HTTP/1.1" 200 14417
+INFO 2023-09-17 16:25:50,289 basehttp 29288 5464 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-09-17 16:25:50,289 basehttp 29288 27352 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-09-17 16:25:50,291 basehttp 29288 28716 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2023-09-17 16:25:50,293 basehttp 29288 18308 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-09-17 16:25:50,295 basehttp 29288 18940 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-09-17 16:25:50,295 basehttp 29288 5464 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-09-17 16:25:50,295 basehttp 29288 27352 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-09-17 16:25:50,296 basehttp 29288 22036 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-09-17 16:25:50,297 basehttp 29288 28716 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-09-17 16:25:50,300 basehttp 29288 18940 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-09-17 16:25:50,300 basehttp 29288 5464 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-09-17 16:25:50,302 basehttp 29288 27352 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-09-17 16:25:50,302 basehttp 29288 28716 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2023-09-17 16:25:50,303 basehttp 29288 22036 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-09-17 16:25:50,305 basehttp 29288 18308 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 16:25:50,321 basehttp 29288 18308 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2023-09-17 16:25:50,323 basehttp 29288 18308 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-09-17 16:25:50,340 basehttp 29288 28716 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-09-17 16:25:50,340 basehttp 29288 18308 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2023-09-17 16:25:50,340 basehttp 29288 27352 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2023-09-17 16:25:50,340 basehttp 29288 22036 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-09-17 16:25:50,341 basehttp 29288 5464 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2023-09-17 17:14:45,169 autoreload 20820 26956 Watching for file changes with StatReloader
+INFO 2023-09-17 17:14:47,126 basehttp 20820 21332 "GET / HTTP/1.1" 200 202
+INFO 2023-09-17 17:14:51,390 basehttp 20820 21332 "GET /admin/ HTTP/1.1" 200 11242
+INFO 2023-09-17 17:14:51,410 basehttp 20820 21332 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2023-09-17 17:14:57,151 basehttp 20820 21332 "GET /admin/myapp/product/ HTTP/1.1" 200 12570
+INFO 2023-09-17 17:14:57,165 basehttp 20820 21332 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-09-17 17:14:57,176 basehttp 20820 19696 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 17:14:57,181 basehttp 20820 19696 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2023-09-17 17:14:57,193 basehttp 20820 19696 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2023-09-17 17:14:57,213 basehttp 20820 19696 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2023-09-17 17:15:06,940 basehttp 20820 19696 "GET /admin/myapp/product/?q=as HTTP/1.1" 200 12672
+INFO 2023-09-17 17:15:06,955 basehttp 20820 19696 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 17:15:09,242 basehttp 20820 19696 "GET /admin/myapp/product/?q=qw HTTP/1.1" 200 11730
+INFO 2023-09-17 17:15:09,259 basehttp 20820 19696 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 17:15:11,110 basehttp 20820 19696 "GET /admin/myapp/product/?q=a HTTP/1.1" 200 12664
+INFO 2023-09-17 17:15:11,128 basehttp 20820 19696 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-18 03:02:54,066 autoreload 20820 26956 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:02:54,938 autoreload 25148 9520 Watching for file changes with StatReloader
+INFO 2023-09-18 03:02:56,234 autoreload 25148 9520 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:02:56,762 autoreload 27760 24956 Watching for file changes with StatReloader
+INFO 2023-09-18 03:02:58,041 autoreload 27760 24956 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:02:58,587 autoreload 28792 14168 Watching for file changes with StatReloader
+INFO 2023-09-18 03:02:59,945 autoreload 28792 14168 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:03:00,456 autoreload 12624 11560 Watching for file changes with StatReloader
+INFO 2023-09-18 03:03:02,760 autoreload 12624 11560 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:03:03,283 autoreload 22096 22504 Watching for file changes with StatReloader
+INFO 2023-09-18 03:03:18,061 autoreload 22096 22504 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:03:18,611 autoreload 424 3792 Watching for file changes with StatReloader
+INFO 2023-09-18 03:03:25,150 autoreload 424 3792 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:03:25,671 autoreload 31448 31380 Watching for file changes with StatReloader
+INFO 2023-09-18 03:03:28,993 autoreload 31448 31380 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:03:29,475 autoreload 21744 2260 Watching for file changes with StatReloader
+INFO 2023-09-18 03:03:30,739 autoreload 21744 2260 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:03:31,247 autoreload 29788 23692 Watching for file changes with StatReloader
+INFO 2023-09-18 03:03:33,548 autoreload 29788 23692 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:03:34,057 autoreload 10896 11776 Watching for file changes with StatReloader
+INFO 2023-09-18 03:03:37,388 autoreload 10896 11776 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:03:37,900 autoreload 22496 27640 Watching for file changes with StatReloader
+INFO 2023-09-18 03:03:41,219 autoreload 22496 27640 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:03:41,717 autoreload 30808 23152 Watching for file changes with StatReloader
+INFO 2023-09-18 03:03:42,981 autoreload 30808 23152 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:03:43,486 autoreload 26084 19700 Watching for file changes with StatReloader
+INFO 2023-09-18 03:03:46,822 autoreload 26084 19700 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:03:47,326 autoreload 28296 27912 Watching for file changes with StatReloader
+INFO 2023-09-18 03:03:49,628 autoreload 28296 27912 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:03:50,124 autoreload 10588 25480 Watching for file changes with StatReloader
+INFO 2023-09-18 03:03:53,460 autoreload 10588 25480 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:03:53,960 autoreload 3144 25924 Watching for file changes with StatReloader
+INFO 2023-09-18 03:03:56,247 autoreload 3144 25924 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:03:56,749 autoreload 12572 28540 Watching for file changes with StatReloader
+INFO 2023-09-18 03:04:06,233 autoreload 12572 28540 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:04:06,755 autoreload 5208 1688 Watching for file changes with StatReloader
+INFO 2023-09-18 03:04:09,041 autoreload 5208 1688 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:04:09,536 autoreload 24332 1512 Watching for file changes with StatReloader
+INFO 2023-09-18 03:04:20,053 autoreload 24332 1512 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:04:20,555 autoreload 5584 2724 Watching for file changes with StatReloader
+INFO 2023-09-18 03:05:26,333 autoreload 9520 30884 Watching for file changes with StatReloader
+INFO 2023-09-18 03:05:37,906 autoreload 9520 30884 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:05:38,433 autoreload 25796 1864 Watching for file changes with StatReloader
+INFO 2023-09-18 03:05:40,409 basehttp 25796 19212 "GET /admin/myapp/product/?q=a HTTP/1.1" 200 12759
+INFO 2023-09-18 03:05:40,437 basehttp 25796 19212 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-09-18 03:05:40,437 basehttp 25796 27912 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-09-18 03:05:40,440 basehttp 25796 4940 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-09-18 03:05:40,443 basehttp 25796 7004 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-09-18 03:05:40,444 basehttp 25796 27912 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-09-18 03:05:40,445 basehttp 25796 19212 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-09-18 03:05:40,445 basehttp 25796 4940 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-09-18 03:05:40,447 basehttp 25796 27364 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-09-18 03:05:40,448 basehttp 25796 7004 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-09-18 03:05:40,449 basehttp 25796 27912 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-09-18 03:05:40,450 basehttp 25796 19212 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-09-18 03:05:40,451 basehttp 25796 4940 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-09-18 03:05:40,451 basehttp 25796 27364 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-09-18 03:05:40,463 basehttp 25796 29832 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-18 03:05:40,479 basehttp 25796 29832 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-09-18 03:05:40,479 basehttp 25796 27364 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-09-18 03:05:40,494 basehttp 25796 29832 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2023-09-18 03:05:40,494 basehttp 25796 27364 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2023-09-18 03:05:40,507 basehttp 25796 27364 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-09-18 03:05:40,507 basehttp 25796 29832 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2023-09-18 03:06:03,650 autoreload 25796 1864 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:06:04,170 autoreload 27768 476 Watching for file changes with StatReloader
+INFO 2023-09-18 03:06:11,688 autoreload 27768 476 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:06:12,221 autoreload 30428 26872 Watching for file changes with StatReloader
+INFO 2023-09-18 03:06:20,805 autoreload 8636 12804 Watching for file changes with StatReloader
+INFO 2023-09-18 03:08:16,603 autoreload 8636 12804 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-18 03:08:17,160 autoreload 19216 23196 Watching for file changes with StatReloader
+INFO 2023-09-18 03:08:20,561 autoreload 19216 23196 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-18 03:08:21,063 autoreload 9020 29452 Watching for file changes with StatReloader
+INFO 2023-09-18 03:08:22,316 autoreload 9020 29452 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-18 03:08:22,809 autoreload 24012 14132 Watching for file changes with StatReloader
+INFO 2023-09-18 03:08:25,085 autoreload 24012 14132 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-18 03:08:25,574 autoreload 23104 25276 Watching for file changes with StatReloader
+INFO 2023-09-18 03:08:28,882 autoreload 23104 25276 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-18 03:08:29,413 autoreload 19280 31564 Watching for file changes with StatReloader
+INFO 2023-09-18 03:08:31,751 autoreload 19280 31564 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-18 03:08:32,288 autoreload 7976 26928 Watching for file changes with StatReloader
+INFO 2023-09-18 03:08:34,671 autoreload 7976 26928 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-18 03:08:35,195 autoreload 13844 18268 Watching for file changes with StatReloader
+ERROR 2023-09-18 03:08:37,460 log 13844 276 Internal Server Error: /admin/myapp/product/
+Traceback (most recent call last):
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: myapp_product.quantity
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: myapp_product.quantity
+ERROR 2023-09-18 03:08:37,466 basehttp 13844 276 "GET /admin/myapp/product/?q=a HTTP/1.1" 500 168446
+INFO 2023-09-18 03:08:53,884 autoreload 10592 26164 Watching for file changes with StatReloader
+INFO 2023-09-18 03:08:54,794 basehttp 10592 31532 "GET /admin/myapp/product/?q=a HTTP/1.1" 200 13771
+INFO 2023-09-18 03:08:54,814 basehttp 10592 31532 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-18 03:08:54,876 basehttp 10592 31532 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2023-09-18 03:09:00,978 basehttp 10592 31532 "GET /admin/myapp/product/1/change/?_changelist_filters=q%3Da HTTP/1.1" 200 14000
+INFO 2023-09-18 03:09:00,990 basehttp 10592 31532 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2023-09-18 03:09:00,993 basehttp 10592 424 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2023-09-18 03:09:00,997 basehttp 10592 31532 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-18 03:09:00,999 basehttp 10592 424 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2023-09-18 03:09:01,021 basehttp 10592 424 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2023-09-18 03:09:05,275 basehttp 10592 424 "POST /admin/myapp/product/1/change/?_changelist_filters=q%3Da HTTP/1.1" 302 0
+INFO 2023-09-18 03:09:05,293 basehttp 10592 424 "GET /admin/myapp/product/?q=a HTTP/1.1" 200 13993
+INFO 2023-09-18 03:09:05,310 basehttp 10592 424 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-18 03:09:05,333 basehttp 10592 424 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2023-09-18 03:09:10,966 basehttp 10592 424 "POST /admin/myapp/product/?q=a HTTP/1.1" 302 0
+INFO 2023-09-18 03:09:10,983 basehttp 10592 424 "GET /admin/myapp/product/?q=a HTTP/1.1" 200 13771
+INFO 2023-09-18 03:09:10,998 basehttp 10592 424 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-18 03:33:35,057 autoreload 10592 26164 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:33:35,733 autoreload 20212 26996 Watching for file changes with StatReloader
+INFO 2023-09-18 03:33:38,110 autoreload 20212 26996 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:33:38,625 autoreload 14304 2780 Watching for file changes with StatReloader
+INFO 2023-09-18 03:33:47,099 autoreload 14304 2780 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:33:47,632 autoreload 28980 29056 Watching for file changes with StatReloader
+INFO 2023-09-18 03:33:57,238 autoreload 28980 29056 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:33:57,767 autoreload 30064 26064 Watching for file changes with StatReloader
+INFO 2023-09-18 03:34:00,141 autoreload 30064 26064 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:34:00,638 autoreload 24224 1956 Watching for file changes with StatReloader
+INFO 2023-09-18 03:34:08,087 autoreload 24224 1956 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:34:08,660 autoreload 6132 424 Watching for file changes with StatReloader
+INFO 2023-09-18 03:34:15,305 basehttp 6132 28984 "GET /admin/myapp/product/?q=a HTTP/1.1" 200 13771
+INFO 2023-09-18 03:34:15,324 basehttp 6132 28984 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-18 03:34:16,536 basehttp 6132 28984 "GET /admin/myapp/product/1/change/?_changelist_filters=q%3Da HTTP/1.1" 200 12397
+INFO 2023-09-18 03:34:16,552 basehttp 6132 28984 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-18 03:34:21,500 autoreload 6132 424 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:34:22,057 autoreload 24696 18132 Watching for file changes with StatReloader
+INFO 2023-09-18 03:34:22,921 basehttp 24696 31504 "GET /admin/myapp/product/1/change/?_changelist_filters=q%3Da HTTP/1.1" 200 14000
+INFO 2023-09-18 03:34:22,938 basehttp 24696 31504 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-18 03:34:25,486 autoreload 24696 18132 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:34:26,068 autoreload 19112 29788 Watching for file changes with StatReloader
+INFO 2023-09-18 03:34:26,426 basehttp 19112 29376 "GET /admin/myapp/product/1/change/?_changelist_filters=q%3Da HTTP/1.1" 200 12397
+INFO 2023-09-18 03:34:26,442 basehttp 19112 29376 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-18 03:39:13,560 basehttp 19112 29376 "GET /admin/myapp/product/?q=a HTTP/1.1" 200 13771
+INFO 2023-09-18 03:39:15,610 basehttp 19112 29376 "GET /admin/myapp/product/1/change/?_changelist_filters=q%3Da HTTP/1.1" 200 12397
+INFO 2023-09-18 03:39:15,628 basehttp 19112 29376 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-18 03:40:52,122 autoreload 19112 29788 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:40:52,661 autoreload 29736 31340 Watching for file changes with StatReloader
+INFO 2023-09-18 03:42:10,016 autoreload 29736 31340 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:42:10,576 autoreload 6132 14364 Watching for file changes with StatReloader
+INFO 2023-09-18 03:42:18,770 autoreload 12948 22600 Watching for file changes with StatReloader
+INFO 2023-09-18 03:42:25,244 autoreload 12948 22600 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\admin.py changed, reloading.
+INFO 2023-09-18 03:42:25,769 autoreload 5036 27820 Watching for file changes with StatReloader
+INFO 2023-09-18 03:42:28,992 basehttp 5036 7532 "GET /admin/myapp/product/1/change/?_changelist_filters=q%3Da HTTP/1.1" 200 13447
+INFO 2023-09-18 03:42:29,015 basehttp 5036 26172 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-18 03:42:29,076 basehttp 5036 7532 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
