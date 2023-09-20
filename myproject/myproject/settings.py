@@ -81,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'drtn%default',
         'USER': 'drtn',
-        'PASSWORD': '130375',
+        'PASSWORD': 'django.contrib',
         'HOST': 'drtn.mysql.pythonanywhere-services.com',
         'OPTIONS': {
             'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'",
