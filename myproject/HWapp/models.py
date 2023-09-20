@@ -20,7 +20,7 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=8, decimal_places=2)
     count = models.IntegerField()
     receiving = models.DateTimeField(auto_now=True)
-    image = models.ImageField(upload_to='product_images',)
+    image = models.ImageField(upload_to='product_images', default='default.png')
 
     # objects = models.Manager()
 
