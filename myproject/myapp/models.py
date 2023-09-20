@@ -18,6 +18,13 @@ class Product(models.Model):
     image = models.ImageField(upload_to='products/', default='default.png')
     quantity = models.PositiveSmallIntegerField(default=0)
 
+    def __str__(self):
+        return self.name
+
+    @property
+    def total_quantity(self):
+        return sum(product.quantity for product in Product.objects.all())
+
 
 class Order(models.Model):
     customer = models.ForeignKey(User, on_delete=models.CASCADE)

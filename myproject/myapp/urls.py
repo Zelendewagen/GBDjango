@@ -5,6 +5,7 @@ from .views import my_view
 from .views import TemplIf, view_for
 from .views import author_posts, post_full
 from .views import user_form, many_fields_form, add_user
+from .views import total_in_view, total_in_db, total_in_template
 
 urlpatterns = [
     path('', my_view, name='index'),
@@ -19,5 +20,9 @@ urlpatterns = [
     path('post/<int:post_id>/', post_full, name='post_full'),
     path('user/add/', user_form, name='user_form'),
     path('forms', many_fields_form, name='many_field_form'),
-    path('add_user', add_user, name='add_user')
+    path('add_user', add_user, name='add_user'),
+    path('total_db/', total_in_db, name='db'),
+    path('total_view/', total_in_view, name='view'),
+    path('total_template/', total_in_template, name='template'),
+
 ]

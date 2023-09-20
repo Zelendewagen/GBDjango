@@ -5402,3 +5402,102 @@ INFO 2023-09-18 03:42:25,769 autoreload 5036 27820 Watching for file changes wit
 INFO 2023-09-18 03:42:28,992 basehttp 5036 7532 "GET /admin/myapp/product/1/change/?_changelist_filters=q%3Da HTTP/1.1" 200 13447
 INFO 2023-09-18 03:42:29,015 basehttp 5036 26172 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
 INFO 2023-09-18 03:42:29,076 basehttp 5036 7532 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2023-09-19 21:24:07,421 autoreload 21252 18416 Watching for file changes with StatReloader
+INFO 2023-09-19 21:24:08,750 basehttp 21252 1064 "GET / HTTP/1.1" 200 202
+WARNING 2023-09-19 21:24:08,980 log 21252 1064 Not Found: /favicon.ico
+WARNING 2023-09-19 21:24:08,981 basehttp 21252 1064 "GET /favicon.ico HTTP/1.1" 404 4677
+WARNING 2023-09-19 21:24:14,629 log 21252 1064 Not Found: /__debug__
+WARNING 2023-09-19 21:24:14,630 basehttp 21252 1064 "GET /__debug__ HTTP/1.1" 404 4671
+WARNING 2023-09-19 21:24:30,268 log 21252 1064 Not Found: /debug
+WARNING 2023-09-19 21:24:30,268 basehttp 21252 1064 "GET /debug HTTP/1.1" 404 4659
+INFO 2023-09-19 21:24:36,550 basehttp 21252 1064 "GET / HTTP/1.1" 200 202
+INFO 2023-09-19 21:25:01,685 autoreload 21252 18416 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myproject\urls.py changed, reloading.
+INFO 2023-09-19 21:25:02,243 autoreload 27756 29404 Watching for file changes with StatReloader
+INFO 2023-09-19 21:25:42,914 autoreload 27756 29404 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\urls.py changed, reloading.
+INFO 2023-09-19 21:25:43,479 autoreload 30992 27952 Watching for file changes with StatReloader
+INFO 2023-09-19 21:25:54,352 basehttp 30992 30628 "GET / HTTP/1.1" 200 202
+INFO 2023-09-19 21:25:55,188 basehttp 30992 30628 "GET / HTTP/1.1" 200 202
+WARNING 2023-09-19 21:25:59,029 log 30992 30628 Not Found: /index
+WARNING 2023-09-19 21:25:59,029 basehttp 30992 30628 "GET /index HTTP/1.1" 404 4659
+WARNING 2023-09-19 21:27:47,493 log 30992 30628 Not Found: /index
+WARNING 2023-09-19 21:27:47,494 basehttp 30992 30628 "GET /index HTTP/1.1" 404 4659
+INFO 2023-09-19 21:27:49,446 basehttp 30992 30628 "GET / HTTP/1.1" 200 202
+INFO 2023-09-19 21:28:06,983 basehttp 30992 30628 "GET / HTTP/1.1" 200 202
+INFO 2023-09-19 21:29:15,603 autoreload 28112 30880 Watching for file changes with StatReloader
+INFO 2023-09-19 21:30:05,969 basehttp 28112 4764 "GET / HTTP/1.1" 200 202
+INFO 2023-09-19 22:19:43,670 autoreload 8144 7796 Watching for file changes with StatReloader
+INFO 2023-09-19 22:24:55,257 autoreload 29392 28480 Watching for file changes with StatReloader
+INFO 2023-09-19 22:25:05,667 basehttp 29392 6124 "GET / HTTP/1.1" 200 202
+WARNING 2023-09-19 22:25:18,982 log 29392 6124 Not Found: /db
+WARNING 2023-09-19 22:25:18,983 basehttp 29392 6124 "GET /db HTTP/1.1" 404 5167
+INFO 2023-09-19 22:26:01,976 basehttp 29392 6124 "GET /total_db HTTP/1.1" 301 0
+INFO 2023-09-19 22:26:01,981 basehttp 29392 21816 "GET /total_db/ HTTP/1.1" 200 243
+ERROR 2023-09-19 22:26:13,256 log 29392 21816 Internal Server Error: /total_view/
+Traceback (most recent call last):
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\views.py", line 130, in total_in_view
+    total = sum(products.quantity for product in products)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\views.py", line 130, in <genexpr>
+    total = sum(products.quantity for product in products)
+AttributeError: 'QuerySet' object has no attribute 'quantity'
+ERROR 2023-09-19 22:26:13,259 basehttp 29392 21816 "GET /total_view/ HTTP/1.1" 500 79420
+INFO 2023-09-19 22:26:44,207 basehttp 29392 21816 "GET /total_template HTTP/1.1" 301 0
+ERROR 2023-09-19 22:26:44,232 log 29392 30684 Internal Server Error: /total_template/
+Traceback (most recent call last):
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\views.py", line 143, in total_in_template
+    return render(request, 'myall/total_count.html', context)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myall/total_count.html
+ERROR 2023-09-19 22:26:44,235 basehttp 29392 30684 "GET /total_template/ HTTP/1.1" 500 89970
+ERROR 2023-09-19 22:27:16,631 log 29392 30684 Internal Server Error: /total_view/
+Traceback (most recent call last):
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\views.py", line 130, in total_in_view
+    total = sum(products.quantity for product in products)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\views.py", line 130, in <genexpr>
+    total = sum(products.quantity for product in products)
+AttributeError: 'QuerySet' object has no attribute 'quantity'
+ERROR 2023-09-19 22:27:16,633 basehttp 29392 30684 "GET /total_view/ HTTP/1.1" 500 79557
+INFO 2023-09-19 22:32:05,979 autoreload 29392 28480 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-19 22:32:06,539 autoreload 18832 13240 Watching for file changes with StatReloader
+INFO 2023-09-19 22:32:07,948 basehttp 18832 14036 "GET /total_db/ HTTP/1.1" 200 243
+INFO 2023-09-19 22:32:09,590 basehttp 18832 14036 "GET /total_view/ HTTP/1.1" 200 240
+INFO 2023-09-19 22:32:13,335 basehttp 18832 14036 "GET /total_db/ HTTP/1.1" 200 243
+INFO 2023-09-19 22:32:15,894 basehttp 18832 14036 "GET /total_view/ HTTP/1.1" 200 240
+INFO 2023-09-19 22:32:19,258 basehttp 18832 14036 "GET /total_view/ HTTP/1.1" 200 240
+ERROR 2023-09-19 22:32:20,597 log 18832 14036 Internal Server Error: /total_template/
+Traceback (most recent call last):
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\views.py", line 143, in total_in_template
+    return render(request, 'myall/total_count.html', context)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myall/total_count.html
+ERROR 2023-09-19 22:32:20,599 basehttp 18832 14036 "GET /total_template/ HTTP/1.1" 500 90107
+INFO 2023-09-19 22:32:28,097 autoreload 18832 13240 C:\Users\Zelendeuser\PycharmProjects\GBDjango(new)\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-19 22:32:28,667 autoreload 19320 26960 Watching for file changes with StatReloader
+INFO 2023-09-19 22:32:28,982 basehttp 19320 25712 "GET /total_template/ HTTP/1.1" 200 228
+INFO 2023-09-21 02:37:30,667 autoreload 2948 29744 Watching for file changes with StatReloader
+INFO 2023-09-21 02:38:00,208 autoreload 19020 9316 Watching for file changes with StatReloader
